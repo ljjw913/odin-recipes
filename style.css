@@ -7,6 +7,14 @@ p {
     text-align: center;
 }
 
+a {
+    color: white;
+}
+
+.backhome {
+    color: inherit;
+}
+
 h1 {
     text-align: center;
     margin-top: 50px;
@@ -21,11 +29,16 @@ h3 {
     font-weight: 500;
 }
 
+.subheading {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
 .recipes {
     text-align: center;
     padding: 20px;
     margin: 10px 550px;
-    background-color: lightblue;
+    background-color: darkred;
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
