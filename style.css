@@ -34,7 +34,6 @@ h3 {
 
 img {
     border-radius: 10px;
-    align: center;
     box-shadow: inset;
 }
 
@@ -52,7 +51,7 @@ ul {
 ol {
     margin-left: 550px;
     margin-right: 550px;
-    background-color: lightblue;
+    background-color: lightgreen;
     border-radius: 10px;
     box-shadow: inset;
     display: block;
