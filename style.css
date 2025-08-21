@@ -35,24 +35,29 @@ h3 {
 }
 
 .recipes {
+    max-width: 350px;
     text-align: center;
     padding: 20px;
-    margin: 10px 550px;
-    background-color: darkred;
+    margin: 10px auto;
+    /* border: solid black 3px; */
+    border-radius: 10px;
+    background-color: seagreen;
     font-weight: bold;
     font-size: 20px;
-    border-radius: 10px;
 }
 
 
 img {
     border-radius: 10px;
     box-shadow: inset;
+    max-width: 300px;
+    margin 0 auto;
+
 }
 
 ul {
-    margin-left: 550px;
-    margin-right: 550px;
+    max-width: 350px;
+    margin: 0 auto;
     background-color: lightblue;
     border-radius: 10px;
     box-shadow: inset;
@@ -62,8 +67,8 @@ ul {
 }
 
 ol {
-    margin-left: 550px;
-    margin-right: 550px;
+    max-width: 350px;
+    margin: 0 auto;
     background-color: lightgreen;
     border-radius: 10px;
     box-shadow: inset;
